@@ -105,6 +105,7 @@
 }
 .functional__item p {
   padding: 30px;
+  text-align: center;
 }
 .functional__inner {
   position: relative;
