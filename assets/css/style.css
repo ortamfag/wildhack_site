@@ -81,11 +81,29 @@
   justify-content: center;
 }
 
+.end {
+  font-family: "Gilroy Regular";
+  background-color: #F9F9FB;
+}
+.end__title h1 {
+  color: #398254;
+  font-size: 55px;
+  line-height: 64px;
+}
+.end__title {
+  text-align: center;
+}
+
+.end img {
+  margin-top: 50px;
+}
+
 .functional {
   font-family: "Gilroy Regular";
   background-color: #F9F9FB;
   padding-bottom: 100px;
-  height: 700px;
+  padding-top: 90px;
+  height: 800px;
 }
 .functional__title h1 {
   font-size: 55px;
@@ -101,10 +119,10 @@
   background: #C0F492;
   border-radius: 100px;
   width: 25%;
+  text-align: center;
 }
 .functional__item p {
   padding: 30px;
-  text-align: center;
   font-size: 20px;
 }
 .functional__inner {
@@ -138,23 +156,6 @@
   left: 55%;
 }
 
-.end {
-  font-family: "Gilroy Regular";
-  background-color: #F9F9FB;
-}
-.end__title h1 {
-  color: #398254;
-  font-size: 55px;
-  line-height: 64px;
-}
-.end__title {
-  text-align: center;
-}
-
-.end img {
-  margin-top: 50px;
-}
-
 @media (max-width: 1000px) {
   .header__title h1 {
     font-size: 40px;
@@ -170,6 +171,76 @@
 
   .functional__item p {
     font-size: 17px;
+  }
+}
+@media (max-width: 800px) {
+  .functional {
+    height: 100%;
+  }
+  .functional__item {
+    border-radius: 50px;
+    width: 30%;
+  }
+  .functional__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .p1 {
+    left: 0;
+    position: static;
+    margin: 20px 0;
+    width: 50%;
+  }
+
+  .p2 {
+    left: 0;
+    top: 0;
+    position: static;
+    margin: 20px 0;
+    width: 50%;
+  }
+
+  .p3 {
+    left: 0;
+    top: 0;
+    position: static;
+    margin: 20px 0;
+    width: 50%;
+  }
+
+  .p4 {
+    top: 0;
+    left: 0;
+    position: static;
+    margin: 20px 0;
+    width: 50%;
+  }
+
+  .p5 {
+    top: 0;
+    left: 0;
+    position: static;
+    margin: 20px 0;
+    width: 50%;
+  }
+}
+@media (max-width: 800px) {
+  .header__title h1 {
+    font-size: 30px;
+  }
+
+  .actual__title h1 {
+    font-size: 28px;
+  }
+
+  .functional__title h1 {
+    font-size: 45px;
+  }
+
+  .end__title h1 {
+    font-size: 45px;
   }
 }
 
