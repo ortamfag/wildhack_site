@@ -48,7 +48,7 @@
 .actual {
   font-family: "Gilroy Regular";
   background-color: #F9F9FB;
-  padding-bottom: 100px;
+  padding-bottom: 1px;
   padding-top: 90px;
 }
 .actual__wrapper {
@@ -82,6 +82,62 @@
   margin-top: 30px;
   display: flex;
   justify-content: center;
+}
+
+.functional {
+  font-family: "Gilroy Regular";
+  background-color: #F9F9FB;
+  padding-bottom: 100px;
+  padding-top: 90px;
+  height: 800px;
+}
+.functional__title h1 {
+  font-size: 55px;
+  line-height: 63px;
+  color: #398254;
+  text-align: center;
+  font-weight: normal;
+}
+.functional__title {
+  padding: 0px 10px 70px 10px;
+}
+.functional__item {
+  background: #C0F492;
+  border-radius: 100px;
+  width: 25%;
+}
+.functional__item p {
+  padding: 30px;
+}
+.functional__inner {
+  position: relative;
+}
+
+.p1 {
+  position: absolute;
+  left: 70px;
+}
+
+.p2 {
+  position: absolute;
+  left: 500px;
+}
+
+.p3 {
+  position: absolute;
+  left: 930px;
+}
+
+.p4 {
+  position: absolute;
+  top: 200px;
+  left: 280px;
+}
+
+.p5 {
+  position: absolute;
+  top: 200px;
+  left: 725px;
 }
 
 /*# sourceMappingURL=style.css.map */
