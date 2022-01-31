@@ -8,7 +8,7 @@
   background-image: url(../images/background.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 130%;
 }
 .header__main {
   margin: 0 auto;
@@ -36,6 +36,7 @@
 }
 .header__link {
   margin-top: 40px;
+  padding-bottom: 40px;
 }
 
 @font-face {
@@ -44,31 +45,40 @@
   font-weight: normal;
   font-style: normal;
 }
-.main {
+.actual {
   font-family: "Gilroy Regular";
   background-color: #F9F9FB;
   padding-bottom: 100px;
+  padding-top: 90px;
 }
-.main__title h1 {
-  font-size: 75px;
-  color: #398254;
+.actual__wrapper {
+  background: #398254;
+  border-radius: 172px 0 172px 0;
+  margin: 0px 250px 90px 250px;
+}
+.actual__title h1 {
+  font-size: 55px;
+  color: #FFFFFF;
   text-align: center;
   padding-top: 30px;
+  padding: 80px 10px 0px 10px;
+  line-height: 61px;
 }
-.main__title p {
-  font-size: 24px;
+.actual__title p {
+  font-size: 18px;
   text-align: center;
-  padding: 30px 30%;
+  padding: 50px 20% 80px 20%;
+  color: #FFFFFF;
 }
-.main__title ol {
+.actual__title ol {
   padding-top: 30px;
   text-align: center;
 }
-.main__title ol li {
+.actual__title ol li {
   margin: 10px 10px;
   font-size: 24px;
 }
-.main__title a {
+.actual__title a {
   margin-top: 30px;
   display: flex;
   justify-content: center;
